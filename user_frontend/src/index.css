@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  /* font-family: 'Anek Latin', sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+  /* default color */
+  --white: rgb(252, 249, 249);
+  --white1: #ecf0f1;
+  --black: #2c3e50;
+  --red: #c0392b;
+  --green: #27ae60;
+
+  /* site color */
+  --primary: #FFDE03;
+  --secondary: #0336FF;
+}

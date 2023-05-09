@@ -1,0 +1,49 @@
+.crud{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  padding: 10px;
+}
+
+.insert-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.insert-form>div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+.insert-form input{
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.insert-form button[type="submit"]{
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  border-radius: .4rem;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.insert-form button[type="submit"]:hover{
+  background-color: var(--primary);
+  /* color: var(--black); */
+}
+
+.crud .cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

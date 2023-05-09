@@ -1,0 +1,28 @@
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  min-height: 100vh;
+}
+
+.cart .cards{
+  display: flex;
+  flex-direction: column;
+}
+
+.cart .cards-m>button{
+  border: none;
+  cursor: pointer;
+  color: var(--red);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: .3rem;
+}
+
+.cart .cards-m>button:hover{
+  background-color: var(--black);
+}

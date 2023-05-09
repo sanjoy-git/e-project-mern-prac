@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+:root {
+  /* default color */
+  --white: #f6f8f8;
+  --white1: #ebeeee;
+  --white2: #d9dedf;
+  --black: #34495e;
+  --red:#c0392b;
+  --green:#27ae60;
+
+  /* site color */
+  --primary: #27ae60;
+  --secondary:#22a6b3;
+  --secondary1:#50b8c2;
+}

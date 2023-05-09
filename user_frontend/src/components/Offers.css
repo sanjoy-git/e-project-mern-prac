@@ -1,0 +1,10 @@
+.offers{
+  min-height: 100vh;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.offers img{
+  max-width: 400px;
+  border-radius: .5rem;
+}

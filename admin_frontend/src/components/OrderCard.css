@@ -1,0 +1,11 @@
+.order-card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--white1);
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.order-card img{
+  width: 100px;
+}

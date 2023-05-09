@@ -1,0 +1,39 @@
+.order-form{
+
+}
+
+.order-form .order-submit{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+.order-form .order-submit div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 3px;
+
+}
+
+.order-form .order-submit div input{
+  padding: 10px;
+}
+
+.order-form .order-submit div input[type="submit"]{
+  background-color: var(--secondary);
+  border: none;
+  color: var(--white);
+  font-weight: bold;
+  border-radius: .3rem;
+}
+
+.order-form .order-submit div input[type="submit"]:hover{
+  background-color: var(--green);
+  color: var(--black);
+  cursor: pointer;
+}

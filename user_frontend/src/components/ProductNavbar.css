@@ -1,0 +1,35 @@
+.product-navbar{
+  width: 100%;
+  margin: 15px 0px 10px;
+}
+
+.product-navbar nav{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* background-color: var(--secondary); */
+}
+
+.product-navbar nav *{
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--black);
+  font-weight: bold;
+  border-radius: .3rem;
+}
+
+.product-navbar nav *:hover{
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+/* .product-navbar nav *:focus{
+  background-color: var(--secondary);
+  color: var(--white);
+} */
+
+.product-navbar .active{
+  background-color: var(--secondary);
+  color: var(--white);
+}

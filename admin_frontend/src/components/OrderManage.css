@@ -1,0 +1,50 @@
+.order-manage{
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-manage .per-order{
+  /* border: 1px solid var(--red); */
+  margin: 10px;
+}
+
+.order-manage .order-person{
+  margin-left: 10px;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+
+.order-manage .order-person *{
+  padding: 2px;
+}
+
+.order-manage .order-control-btn{
+  text-align: left;
+  margin: 10px;
+}
+
+.order-manage button{
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: .4rem;
+  background-color: var(--secondary);
+  color: var(--white);
+  margin: 2px;
+}
+.order-manage button:hover{
+  background-color: var(--primary);
+  color: var(--black);
+}
+
+.order-manage .order-cards{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}

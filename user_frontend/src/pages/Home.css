@@ -1,0 +1,9 @@
+.home{
+  width: 100%;
+  background-color: var(--white);
+}
+
+.home .notify{
+  padding: 5px;
+  color: var(--secondary);
+}

@@ -27,8 +27,8 @@ export default function Footer(props) {
       </div><br />
 
       <div className='develop'>
-        <a href={footer_text1} target="_">Predictuse Development Team</a>
-        {/* <p>{footer_text1}</p> */}
+        {/* <a href={footer_text1} target="_">sanjoylab</a> */}
+        <i>@Sanjoy</i>
       </div>
     </div>
   )

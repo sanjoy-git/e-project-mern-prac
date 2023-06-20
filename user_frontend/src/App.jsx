@@ -36,22 +36,26 @@ export default function App() {
       {isLoading && <h2>Loading...</h2>}
       {siteText && 
         <div>
-          <Navbar/>
-          <Routes>
-            <Route path='/offers' element={<Offers/>}/>
-            <Route path='/blogs' element={<Blogs/>}/>
-            <Route path='/cart' element={<Cart/>}/>
-            <Route path='/orderCheck' element={<OrderCheck/>}/>
-            <Route path='/notification' element={<Notification/>}/>
-            <Route path='/details/:id' element={<CardDatails/>}/>
-            <Route path='/products' element={<ProductsPage/>}/>
-            <Route path='/home/*' element={<Home passSiteTextHome={siteText}/>}/>
-            <Route path='/' element={<Home passSiteTextHome={siteText}/>}/>
-            {/* <Route path='/home'>
-              <Home passSiteTextHome={siteText}/>
-            </Route> */}
-            <Route path='*' element={<PageNotFound/>}/>
-          </Routes>
+          <div style={{ width:'100%',position:'fixed', top:'0px', zIndex:'100'}}>
+            <Navbar/>
+          </div>
+          <div style={{marginTop:'50px'}}>
+            <Routes>
+              <Route path='/offers' element={<Offers/>}/>
+              <Route path='/blogs' element={<Blogs/>}/>
+              <Route path='/cart' element={<Cart/>}/>
+              <Route path='/orderCheck' element={<OrderCheck/>}/>
+              <Route path='/notification' element={<Notification/>}/>
+              <Route path='/details/:id' element={<CardDatails/>}/>
+              <Route path='/products' element={<ProductsPage/>}/>
+              <Route path='/home/*' element={<Home passSiteTextHome={siteText}/>}/>
+              <Route path='/' element={<Home passSiteTextHome={siteText}/>}/>
+              {/* <Route path='/home'>
+                <Home passSiteTextHome={siteText}/>
+              </Route> */}
+              <Route path='*' element={<PageNotFound/>}/>
+            </Routes>
+          </div>
           <Footer passSiteText={siteText}/>
         </div>      
       }

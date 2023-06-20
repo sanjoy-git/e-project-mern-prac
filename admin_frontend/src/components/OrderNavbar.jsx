@@ -17,12 +17,12 @@ export default function OrderNavbar() {
   
   return (
     <div className='order-navbar'>
-      <NavLink to="">pendingOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
-      <NavLink to="confirmOrder">confirmOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
-      <NavLink to="deliveringOrder">deliveringOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
-      <NavLink to="deliveredOrder">deliveredOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
-      <NavLink to="cancelOrder">cancelOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
-      <NavLink to="deleteOrder">deleteOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>0</sup></NavLink>
+      <NavLink to="">pendingOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
+      <NavLink to="confirmOrder">confirmOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
+      <NavLink to="deliveringOrder">deliveringOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
+      <NavLink to="deliveredOrder">deliveredOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
+      <NavLink to="cancelOrder">cancelOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
+      <NavLink to="deleteOrder">deleteOrder <sup style={{color:'yellow',backgroundColor:'black',borderRadius:'1rem'}}>*</sup></NavLink>
     </div>
   )
 }
